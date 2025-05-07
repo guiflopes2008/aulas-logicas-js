@@ -1,0 +1,13 @@
+#content{
+    background-color: #8b0000;
+    color: #fff;
+}
+
+.hide{
+    display: none;
+
+}
+
+.show{
+    display: block;
+}
