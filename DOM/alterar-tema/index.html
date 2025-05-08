@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body.claro {
+        background-color: #fff;
+        color: black;
+    }
+
+    body.escuro {
+        background-color: aqua;
+        color: black;
+    }
+</style>
+
+<body>
+    <button id="alterarTema">Alterar Tema</button>
+
+    <script>
+
+        const btAlternarTema = document.querySelector("#alterarTema")
+        function alterarTema(){
+            document.body.classList.toggle("escuro")
+            document.body.classList.toggle("claro")
+        }
+
+        btAlternarTema.addEventListener("click", ()=>{
+            alterarTema()
+        })
+    </script>
+</body>
+
+</html>
